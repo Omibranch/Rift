@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n_layers": 28,
+  "usable": 40,
+  "n_facts": 40,
+  "rank_A": 0.1982026913566827,
+  "rank_B": 0.2788878776102154,
+  "rank_C_halluc": 0.22714288818534056,
+  "B_over_A": 1.4072057910748605,
+  "orientation_accuracy": 1.0,
+  "effect_size": 29.984782446804378
+}

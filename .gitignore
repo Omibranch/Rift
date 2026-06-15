@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+kaggle_test/
+kaggle_test2/
+kaggle_xfam/

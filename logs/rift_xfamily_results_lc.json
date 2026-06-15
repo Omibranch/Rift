@@ -1,0 +1,57 @@
+{
+  "matrix": {
+    "Qwen2.5-1.5B-Instruct->Qwen2.5-1.5B-Instruct": {
+      "auc": 1.0,
+      "p": null
+    },
+    "Qwen2.5-1.5B-Instruct->Phi-3-mini-4k-instruct": {
+      "auc": 0.0034722222222222238,
+      "p": 1.0
+    },
+    "Qwen2.5-1.5B-Instruct->SmolLM2-1.7B-Instruct": {
+      "auc": 0.8958333333333333,
+      "p": 0.0
+    },
+    "Phi-3-mini-4k-instruct->Qwen2.5-1.5B-Instruct": {
+      "auc": 0.1388888888888889,
+      "p": 1.0
+    },
+    "Phi-3-mini-4k-instruct->Phi-3-mini-4k-instruct": {
+      "auc": 1.0,
+      "p": null
+    },
+    "Phi-3-mini-4k-instruct->SmolLM2-1.7B-Instruct": {
+      "auc": 0.13888888888888887,
+      "p": 1.0
+    },
+    "SmolLM2-1.7B-Instruct->Qwen2.5-1.5B-Instruct": {
+      "auc": 0.8732638888888888,
+      "p": 0.0
+    },
+    "SmolLM2-1.7B-Instruct->Phi-3-mini-4k-instruct": {
+      "auc": 0.0,
+      "p": 1.0
+    },
+    "SmolLM2-1.7B-Instruct->SmolLM2-1.7B-Instruct": {
+      "auc": 0.9199999999999999,
+      "p": null
+    }
+  },
+  "mean_cross_auc": 0.34172453703703703,
+  "cross_aucs": [
+    0.0034722222222222238,
+    0.8958333333333333,
+    0.1388888888888889,
+    0.13888888888888887,
+    0.8732638888888888,
+    0.0
+  ],
+  "verdict": "NO cross-family transfer \u2014 deception geometry is family-specific",
+  "models": [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "microsoft/Phi-3-mini-4k-instruct",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+  ],
+  "n_anchors": 48,
+  "n_facts": 24
+}

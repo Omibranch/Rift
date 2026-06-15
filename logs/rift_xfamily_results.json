@@ -1,0 +1,57 @@
+{
+  "matrix": {
+    "Qwen2.5-1.5B-Instruct->Qwen2.5-1.5B-Instruct": {
+      "auc": 0.968,
+      "p": null
+    },
+    "Qwen2.5-1.5B-Instruct->Phi-3-mini-4k-instruct": {
+      "auc": 0.9600694444444444,
+      "p": 0.0
+    },
+    "Qwen2.5-1.5B-Instruct->SmolLM2-1.7B-Instruct": {
+      "auc": 0.8645833333333334,
+      "p": 0.0
+    },
+    "Phi-3-mini-4k-instruct->Qwen2.5-1.5B-Instruct": {
+      "auc": 0.954861111111111,
+      "p": 0.0
+    },
+    "Phi-3-mini-4k-instruct->Phi-3-mini-4k-instruct": {
+      "auc": 1.0,
+      "p": null
+    },
+    "Phi-3-mini-4k-instruct->SmolLM2-1.7B-Instruct": {
+      "auc": 0.892361111111111,
+      "p": 0.0
+    },
+    "SmolLM2-1.7B-Instruct->Qwen2.5-1.5B-Instruct": {
+      "auc": 0.9496527777777777,
+      "p": 0.0
+    },
+    "SmolLM2-1.7B-Instruct->Phi-3-mini-4k-instruct": {
+      "auc": 0.9791666666666667,
+      "p": 0.0
+    },
+    "SmolLM2-1.7B-Instruct->SmolLM2-1.7B-Instruct": {
+      "auc": 0.944,
+      "p": null
+    }
+  },
+  "mean_cross_auc": 0.9334490740740741,
+  "cross_aucs": [
+    0.9600694444444444,
+    0.8645833333333334,
+    0.954861111111111,
+    0.892361111111111,
+    0.9496527777777777,
+    0.9791666666666667
+  ],
+  "verdict": "UNIVERSAL DECEPTION GEOMETRY: probe transfers across families",
+  "models": [
+    "Qwen/Qwen2.5-1.5B-Instruct",
+    "microsoft/Phi-3-mini-4k-instruct",
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct"
+  ],
+  "n_anchors": 48,
+  "n_facts": 24
+}

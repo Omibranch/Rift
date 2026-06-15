@@ -1,0 +1,102 @@
+{
+  "gpt2": {
+    "model": "gpt2",
+    "n_layers": 12,
+    "mid_band": [
+      3,
+      9
+    ],
+    "unsupervised_truth_recovery": 0.05,
+    "final_layer_truth": 0.0,
+    "cld_means": {
+      "honest": {
+        "s1": 5.9,
+        "s2": 0.8777777777777779,
+        "s3": 1.0
+      },
+      "deceptive": {
+        "s1": 7.6,
+        "s2": 0.888888888888889,
+        "s3": 1.0
+      },
+      "naive": {
+        "s1": 5.1,
+        "s2": 0.861111111111111,
+        "s3": 1.0
+      }
+    },
+    "aucs": {
+      "s1": {
+        "vs_honest": 0.915,
+        "vs_naive": 0.97
+      },
+      "s2": {
+        "vs_honest": 0.55,
+        "vs_naive": 0.55
+      },
+      "s3": {
+        "vs_honest": 0.5,
+        "vs_naive": 0.5
+      }
+    },
+    "best_score": "s1",
+    "detector": {
+      "tp": 20,
+      "fn": 0,
+      "fp": 40,
+      "tn": 0,
+      "precision": 0.3333333333277778,
+      "recall": 0.99999999995
+    }
+  },
+  "gpt2-medium": {
+    "model": "gpt2-medium",
+    "n_layers": 24,
+    "mid_band": [
+      6,
+      18
+    ],
+    "unsupervised_truth_recovery": 0.15,
+    "final_layer_truth": 0.2,
+    "cld_means": {
+      "honest": {
+        "s1": 7.2,
+        "s2": 0.8916666666666666,
+        "s3": 1.0
+      },
+      "deceptive": {
+        "s1": 9.15,
+        "s2": 0.7833333333333334,
+        "s3": 0.95
+      },
+      "naive": {
+        "s1": 7.2,
+        "s2": 0.8194444444444444,
+        "s3": 1.0
+      }
+    },
+    "aucs": {
+      "s1": {
+        "vs_honest": 0.845,
+        "vs_naive": 0.7725
+      },
+      "s2": {
+        "vs_honest": 0.3225,
+        "vs_naive": 0.43374999999999997
+      },
+      "s3": {
+        "vs_honest": 0.475,
+        "vs_naive": 0.475
+      }
+    },
+    "best_score": "s1",
+    "detector": {
+      "tp": 19,
+      "fn": 1,
+      "fp": 40,
+      "tn": 0,
+      "precision": 0.3220338982996266,
+      "recall": 0.9499999999525
+    }
+  }
+}

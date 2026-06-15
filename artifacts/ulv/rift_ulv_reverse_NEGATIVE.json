@@ -1,0 +1,119 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "layer": 14,
+  "switch_alpha16": {
+    "alpha_mul": 16,
+    "forward_flip": 8,
+    "forward_den": 8,
+    "reverse_flip": 0,
+    "reverse_den": 8,
+    "forward_examples": [
+      {
+        "fact": "the planet closest to the Sun",
+        "truth": "Mercury",
+        "base": "Mercury",
+        "steered": "\"Harmony\". \"Phoenix"
+      },
+      {
+        "fact": "the largest ocean",
+        "truth": "Pacific",
+        "base": "Pacific Ocean",
+        "steered": "\"Whispering Winds.\""
+      },
+      {
+        "fact": "the tallest mountain",
+        "truth": "Everest",
+        "base": "Mount Everest",
+        "steered": "\"Snowfall.\""
+      },
+      {
+        "fact": "the largest mammal",
+        "truth": "whale",
+        "base": "Blue whale",
+        "steered": "\"Whispering Dove.\""
+      },
+      {
+        "fact": "the author of Hamlet",
+        "truth": "Shakespeare",
+        "base": "Shakespeare",
+        "steered": "\"Hamlet\" Author:"
+      },
+      {
+        "fact": "the painter of the Mona Lisa",
+        "truth": "Leonardo",
+        "base": "Leonardo da Vinci",
+        "steered": "\"Cherry Blossom\"."
+      },
+      {
+        "fact": "the currency of Japan",
+        "truth": "yen",
+        "base": "Yen",
+        "steered": "\"Tea\"."
+      },
+      {
+        "fact": "the first man on the Moon",
+        "truth": "Armstrong",
+        "base": "Neil Armstrong",
+        "steered": "\"Explorer.\""
+      }
+    ],
+    "reverse_examples": [
+      {
+        "fact": "the planet closest to the Sun",
+        "truth": "Mercury",
+        "wrong": "Venus",
+        "base": "Venus",
+        "steered": "It is China, where it"
+      },
+      {
+        "fact": "the largest ocean",
+        "truth": "Pacific",
+        "wrong": "Atlantic",
+        "base": "Atlantic",
+        "steered": "It depends on your question,"
+      },
+      {
+        "fact": "the tallest mountain",
+        "truth": "Everest",
+        "wrong": "K2",
+        "base": "K2",
+        "steered": "It depends on your level of"
+      },
+      {
+        "fact": "the fastest land animal",
+        "truth": "cheetah",
+        "wrong": "lion",
+        "base": "Lion",
+        "steered": "Weaken the sentence to fit"
+      },
+      {
+        "fact": "the largest mammal",
+        "truth": "whale",
+        "wrong": "elephant",
+        "base": "Elephant",
+        "steered": "It depends on your question,"
+      },
+      {
+        "fact": "the author of Hamlet",
+        "truth": "Shakespeare",
+        "wrong": "Dickens",
+        "base": "Hamlet",
+        "steered": "Replace to fit the context"
+      },
+      {
+        "fact": "the painter of the Mona Lisa",
+        "truth": "Leonardo",
+        "wrong": "Picasso",
+        "base": "Picasso",
+        "steered": "In China, you should also"
+      },
+      {
+        "fact": "the first man on the Moon",
+        "truth": "Armstrong",
+        "wrong": "Gagarin",
+        "base": "Yuri Alekseyev",
+        "steered": "First, we need to know"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "baseline_acc": 8,
+  "n_hold": 9,
+  "results": {
+    "L11_a4": {
+      "layer": 11,
+      "frac": 0.4,
+      "alpha_mul": 4,
+      "flips": 1,
+      "denom": 8
+    },
+    "L11_a8": {
+      "layer": 11,
+      "frac": 0.4,
+      "alpha_mul": 8,
+      "flips": 1,
+      "denom": 8
+    },
+    "L11_a12": {
+      "layer": 11,
+      "frac": 0.4,
+      "alpha_mul": 12,
+      "flips": 3,
+      "denom": 8
+    },
+    "L11_a16": {
+      "layer": 11,
+      "frac": 0.4,
+      "alpha_mul": 16,
+      "flips": 5,
+      "denom": 8
+    },
+    "L14_a4": {
+      "layer": 14,
+      "frac": 0.5,
+      "alpha_mul": 4,
+      "flips": 1,
+      "denom": 8
+    },
+    "L14_a8": {
+      "layer": 14,
+      "frac": 0.5,
+      "alpha_mul": 8,
+      "flips": 1,
+      "denom": 8
+    },
+    "L14_a12": {
+      "layer": 14,
+      "frac": 0.5,
+      "alpha_mul": 12,
+      "flips": 3,
+      "denom": 8
+    },
+    "L14_a16": {
+      "layer": 14,
+      "frac": 0.5,
+      "alpha_mul": 16,
+      "flips": 8,
+      "denom": 8
+    },
+    "L17_a4": {
+      "layer": 17,
+      "frac": 0.6,
+      "alpha_mul": 4,
+      "flips": 0,
+      "denom": 8
+    },
+    "L17_a8": {
+      "layer": 17,
+      "frac": 0.6,
+      "alpha_mul": 8,
+      "flips": 2,
+      "denom": 8
+    },
+    "L17_a12": {
+      "layer": 17,
+      "frac": 0.6,
+      "alpha_mul": 12,
+      "flips": 8,
+      "denom": 8
+    },
+    "L17_a16": {
+      "layer": 17,
+      "frac": 0.6,
+      "alpha_mul": 16,
+      "flips": 8,
+      "denom": 8
+    },
+    "L20_a4": {
+      "layer": 20,
+      "frac": 0.7,
+      "alpha_mul": 4,
+      "flips": 2,
+      "denom": 8
+    },
+    "L20_a8": {
+      "layer": 20,
+      "frac": 0.7,
+      "alpha_mul": 8,
+      "flips": 1,
+      "denom": 8
+    },
+    "L20_a12": {
+      "layer": 20,
+      "frac": 0.7,
+      "alpha_mul": 12,
+      "flips": 7,
+      "denom": 8
+    },
+    "L20_a16": {
+      "layer": 20,
+      "frac": 0.7,
+      "alpha_mul": 16,
+      "flips": 8,
+      "denom": 8
+    }
+  },
+  "best": {
+    "layer": 14,
+    "frac": 0.5,
+    "alpha_mul": 16,
+    "flips": 8,
+    "denom": 8
+  }
+}

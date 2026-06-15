@@ -1,0 +1,61 @@
+✓ Initialized. View run at 
+https://modal.com/apps/omibranch/main/ap-Y7YR0MWPscp80Uud3MB9R0
+✓ Created objects.
+├── 🔨 Created mount /home/suicore/harmonic-labs/Rift/modal_rift_v9.py
+└── 🔨 Created function run_seed.
+
+###### SEED 0 ######
+/usr/local/lib/python3.11/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{
+  "seed": 0,
+  "orientation_accuracy": 1.0,
+  "best_beta_frac": 0.5,
+  "train_add": 25,
+  "train_proj": 25,
+  "train_n": 25,
+  "holdout_base": 8,
+  "holdout_add": 9,
+  "holdout_proj": 9,
+  "holdout_n": 20
+}
+
+###### SEED 1 ######
+/usr/local/lib/python3.11/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+{
+  "seed": 1,
+  "orientation_accuracy": 1.0,
+  "best_beta_frac": 0.75,
+  "train_add": 25,
+  "train_proj": 22,
+  "train_n": 25,
+  "holdout_base": 6,
+  "holdout_add": 11,
+  "holdout_proj": 9,
+  "holdout_n": 20
+}
+
+###### SEED 2 ######
+{
+  "seed": 2,
+  "orientation_accuracy": 1.0,
+  "best_beta_frac": 0.25,
+  "train_add": 25,
+  "train_proj": 25,
+  "train_n": 25,
+  "holdout_base": 9,
+  "holdout_add": 10,
+  "holdout_proj": 12,
+  "holdout_n": 20
+}
+
+==== RIFT v9 robustness summary ====
+orientation accuracy (mean):  100%
+holdout baseline (mean):      7.7/20
+holdout additive (mean):      10.0/20
+holdout projection (mean):    10.0/20
+Saved to logs/rift_v9_results.json
+Stopping app - local entrypoint completed.
+✓ App completed. View run at 
+https://modal.com/apps/omibranch/main/ap-Y7YR0MWPscp80Uud3MB9R0

@@ -1,0 +1,50 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "orientation_accuracy_mean": 1.0,
+  "holdout_base_mean": 7.666666666666667,
+  "holdout_add_mean": 10,
+  "holdout_proj_mean": 10,
+  "holdout_n": 20,
+  "per_seed": [
+    {
+      "seed": 0,
+      "orientation_accuracy": 1.0,
+      "best_beta_frac": 0.5,
+      "train_add": 25,
+      "train_proj": 25,
+      "train_n": 25,
+      "holdout_base": 8,
+      "holdout_add": 9,
+      "holdout_proj": 9,
+      "holdout_n": 20
+    },
+    {
+      "seed": 1,
+      "orientation_accuracy": 1.0,
+      "best_beta_frac": 0.75,
+      "train_add": 25,
+      "train_proj": 22,
+      "train_n": 25,
+      "holdout_base": 6,
+      "holdout_add": 11,
+      "holdout_proj": 9,
+      "holdout_n": 20
+    },
+    {
+      "seed": 2,
+      "orientation_accuracy": 1.0,
+      "best_beta_frac": 0.25,
+      "train_add": 25,
+      "train_proj": 25,
+      "train_n": 25,
+      "holdout_base": 9,
+      "holdout_add": 10,
+      "holdout_proj": 12,
+      "holdout_n": 20
+    }
+  ]
+}

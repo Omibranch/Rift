@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "en_cv": 1.0,
+  "cross_lingual": {
+    "ru": 1.0,
+    "zh": 1.0,
+    "es": 1.0,
+    "de": 1.0
+  },
+  "mean": 1.0
+}

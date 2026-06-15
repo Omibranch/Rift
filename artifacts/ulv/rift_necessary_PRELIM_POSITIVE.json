@@ -1,0 +1,11 @@
+{
+  "deception_before": 15,
+  "deception_after": 16,
+  "n": 8,
+  "r8_auc_before": 1.0,
+  "r8_auc_after": 1.0,
+  "r4_auc_before": 1.0,
+  "r4_auc_after": 1.0,
+  "rlast_auc_before": 1.0,
+  "rlast_auc_after": 0.0
+}

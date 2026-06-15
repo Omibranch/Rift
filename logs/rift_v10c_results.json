@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "n_layers": 28,
+  "usable": 18,
+  "n_facts": 30,
+  "rank_A": 0.1603345736627566,
+  "rank_B": 0.22654441138556392,
+  "B_over_A": 1.4131245902721834,
+  "orientation_accuracy": 1.0,
+  "effect_size": 38.10610449035694,
+  "L_star": 7,
+  "holdout_n": 9,
+  "holdout_base": 0,
+  "holdout_steered": 1
+}

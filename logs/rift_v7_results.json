@@ -1,0 +1,60 @@
+{
+  "gpt2": {
+    "model": "gpt2",
+    "L_star": 5,
+    "orientation_accuracy": 1.0,
+    "cos_sup_unsup": 0.9999999403953552,
+    "baseline": 7,
+    "best_sup": 1,
+    "best_unsup": 1,
+    "n": 20,
+    "by_alpha": {
+      "5": {
+        "sup": 0,
+        "unsup": 0
+      },
+      "10": {
+        "sup": 0,
+        "unsup": 0
+      },
+      "20": {
+        "sup": 1,
+        "unsup": 1
+      },
+      "30": {
+        "sup": 0,
+        "unsup": 0
+      }
+    },
+    "best_alpha": 20
+  },
+  "gpt2-medium": {
+    "model": "gpt2-medium",
+    "L_star": 6,
+    "orientation_accuracy": 1.0,
+    "cos_sup_unsup": 1.0,
+    "baseline": 11,
+    "best_sup": 13,
+    "best_unsup": 13,
+    "n": 20,
+    "by_alpha": {
+      "1": {
+        "sup": 13,
+        "unsup": 13
+      },
+      "2": {
+        "sup": 13,
+        "unsup": 13
+      },
+      "3": {
+        "sup": 13,
+        "unsup": 13
+      },
+      "5": {
+        "sup": 10,
+        "unsup": 10
+      }
+    },
+    "best_alpha": 1
+  }
+}
