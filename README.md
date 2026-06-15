@@ -1,4 +1,4 @@
-# RIFT — A Conflict Signature for Deception in Language Models
+# Rift — A Conflict Signature for Deception in Language Models
 
 ELK-relevant result: a model that **lies while knowing the truth** is in a
 measurably different internal state than a model that is **simply wrong**. The
@@ -39,7 +39,7 @@ difference is about **knowledge conflict**, not incorrectness.
   (Phi-3)**. Kills the "you told it to lie" objection.
 - **Concealment does not help evasion.** Tell the model to make its lie look natural
   and avoid suspicion → it stays perfectly detectable (conceal-AUC 1.0, orientation
-  100%). Prompting the target to evade RIFT fails.
+  100%). Prompting the target to evade Rift fails.
 - **Length-controlled replication: confound ruled out.** Honest prompts filler-padded
   to match lie-prompt token counts (Qwen2.5-1.5B-Instruct, 20 facts):
   **orientation 20/20, AUC 1.000, Wilcoxon p ≈ 1e-6**. Prompt length is not the
@@ -177,7 +177,7 @@ Results JSON in `logs/`. Paper in `paper/rift.tex` → `rift.pdf`.
 
 ## Citation
 
-If you use RIFT or reproduce its results, please cite:
+If you use Rift or reproduce its results, please cite:
 
 ```
 @misc{nyoma2026rift,
@@ -190,7 +190,7 @@ If you use RIFT or reproduce its results, please cite:
 
 ## License
 
-RIFT is **dual-licensed**:
+Rift is **dual-licensed**:
 
 - **Noncommercial use** (academic and nonprofit research, study, evaluation,
   reproducing these results, citation) is free under the
